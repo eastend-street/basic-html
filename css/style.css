@@ -1,0 +1,27 @@
+body {
+  margin: 0px;
+  background-color: rgb(84, 167, 235);
+}
+
+li {
+  color: white;
+  list-style: none;
+  border: 1px solid white;
+  background-color: blue;
+  width: 150px;
+  font-size: 20px;
+  line-height: 20px;
+  text-align: center;
+}
+
+ul li {
+  display: inline-block;
+}
+
+ul li ul li {
+  display: none;
+}
+
+ul li:hover ul li {
+    display: inline;
+}
