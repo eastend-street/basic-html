@@ -1,21 +1,30 @@
 body {
   margin: 0px;
-  background-color: rgb(84, 167, 235);
+  background: url(../images/bg.jpg) center center fixed no-repeat;
+  
 }
 
 li {
-  color: white;
+  color: #eee;
   list-style: none;
-  border: 1px solid white;
-  background-color: blue;
+  /* border: 1px solid #eee; */
+  background-color: transparent;
   width: 150px;
   font-size: 20px;
   line-height: 20px;
   text-align: center;
 }
 
+ul {
+    margin: 20px 0 0 0;
+    padding: 0px;
+}
+
 ul li {
-  display: inline-block;
+  /* display: inline-block; */
+  width: 200px;
+  float: left;
+  padding: 5px 10px;
 }
 
 ul li ul li {
@@ -23,5 +32,6 @@ ul li ul li {
 }
 
 ul li:hover ul li {
-    display: inline;
+  display: block;
+  opacity: 0.8;
 }
