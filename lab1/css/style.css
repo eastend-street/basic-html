@@ -1,0 +1,125 @@
+.header {
+  height: 100px;
+  background-color: #1a1a1a;
+}
+
+.logo {
+  width: 60px;
+  margin: 10px auto 20px 100px;
+}
+
+.nav {
+  background-color: #830005;
+  height: 50px;
+}
+
+.nav ul {
+  color: #fffcfc;
+  margin-left: 100px;
+}
+
+.nav ul li {
+  width: 80px;
+  float: left;
+}
+
+.nav ul li a {
+  display: block;
+  color: #fffcfc;
+  text-decoration: none;
+  padding: 15px;
+}
+
+.main {
+  display: flex;
+  background-color: #ddd;
+  padding: 50px 100px;
+}
+
+.main-left .main-title {
+  font-size: 32px;
+}
+
+.main-left .description {
+  margin-top: 20px;
+}
+
+.main-left .read-more-button {
+  display: block;
+  margin: 30px 0 0 auto;
+  font-size: 18px;
+  color: #fffcfc;
+  background-color: #2f2e34;
+  height: 45px;
+  width: 150px;
+  border-radius: 5px;
+}
+
+.main .main-right {
+  padding: 0 0 50px 100px;
+}
+
+.main .main-right .top-image {
+  width: 500px;
+  border: solid 5px #fffcfc;
+}
+
+.content {
+  color: #fffcfc;
+  background-color: #830005;
+  padding: 50px 100px;
+}
+
+.content .content-title {
+  font-size: 32px;
+}
+
+.content .content-flex-area {
+  display: flex;
+  margin-top: 20px;
+}
+
+.content-flex-area .title {
+  font-size: 20px;
+  margin: 30px auto;
+}
+
+.content-flex-area .description {
+  font-size: 16px;
+}
+
+.content-flex-area img {
+  width: 200px;
+  border: solid 5px #fffcfc;
+}
+
+.content .content-one {
+  padding: 30px;
+  border-right: solid 1px #fffcfc;
+}
+
+.content .content-two {
+  padding: 30px;
+  border-right: solid 1px #fffcfc;
+}
+
+.content .content-three {
+  padding: 30px;
+  border-right: solid 1px #fffcfc;
+}
+
+.content .content-four {
+  padding: 30px;
+}
+
+.footer {
+  color: #fffcfc;
+  height: 50px;
+  background-color: #1a1a1a;
+  text-align: center;
+}
+
+.footer .copyright {
+  display: block;
+  padding-top: 15px;
+}
