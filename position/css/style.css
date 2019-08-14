@@ -18,7 +18,29 @@
 
 .fixedone {
   position: fixed;
-  top: 0;
-  left: 0;
+  top: -150px;
+  left: -150px;
   background-color: blue;
+  transform: rotate(-45deg);
+}
+.fixedtwo {
+  position: fixed;
+  top: -150px;
+  right: -150px;
+  background-color: blue;
+  transform: rotate(-45deg);
+}
+.fixedthree {
+  position: fixed;
+  bottom: -150px;
+  left: -150px;
+  background-color: blue;
+  transform: rotate(-45deg);
+}
+.fixedfour {
+  position: fixed;
+  bottom: -150px;
+  right: -150px;
+  background-color: blue;
+  transform: rotate(-45deg);
 }
