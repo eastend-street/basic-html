@@ -93,17 +93,7 @@
   border: solid 5px #fffcfc;
 }
 
-.content .content-one {
-  padding: 30px;
-  border-right: solid 1px #fffcfc;
-}
-
-.content .content-two {
-  padding: 30px;
-  border-right: solid 1px #fffcfc;
-}
-
-.content .content-three {
+.content .content-one, .content-two, .content-three {
   padding: 30px;
   border-right: solid 1px #fffcfc;
 }
