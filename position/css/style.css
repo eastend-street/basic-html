@@ -1,0 +1,24 @@
+.object {
+  width: 300px;
+  height: 300px;
+  margin: 0 auto;
+}
+
+.moveleft {
+  position: relative;
+  left: 300px;
+  background-color: red;
+}
+
+.moveright {
+  position: relative;
+  right: 300px;
+  background-color: red;
+}
+
+.fixedone {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: blue;
+}
