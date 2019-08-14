@@ -67,7 +67,7 @@
 .content {
   color: #fffcfc;
   background-color: #830005;
-  padding: 50px 50px 150px 50px;
+  padding: 50px 50px 150px 100px;
 }
 
 .content .content-title {
@@ -93,13 +93,13 @@
   border: solid 5px #fffcfc;
 }
 
-.content .content-one, .content-two, .content-three {
+.content .each-content {
   padding: 30px;
   border-right: solid 1px #fffcfc;
 }
 
-.content .content-four {
-  padding: 30px;
+.content .last-content {
+  border: none;
 }
 
 .footer {
