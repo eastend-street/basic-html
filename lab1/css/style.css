@@ -1,3 +1,7 @@
+body {
+  font-family: sans-serif;
+}
+
 .header {
   height: 100px;
   background-color: #1a1a1a;
@@ -5,7 +9,7 @@
 
 .logo {
   width: 60px;
-  margin: 10px auto 20px 100px;
+  margin: 10px auto 20px 90px;
 }
 
 .nav {
@@ -27,7 +31,7 @@
   display: block;
   color: #fffcfc;
   text-decoration: none;
-  padding: 15px;
+  padding: 16px 16px 16px 0;
 }
 
 .main {
@@ -37,7 +41,7 @@
 }
 
 .main-left .main-title {
-  font-size: 32px;
+  font-size: 26px;
 }
 
 .main-left .description {
