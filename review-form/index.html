@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="https://google.com">
+      <fieldset>
+        <legend>Your Details</legend>
+        <p>
+          <label for="Name">Name:</label>
+          <input type="text" />
+        </p>
+        <p>
+          <label for="Email">Email:</label>
+          <input type="text" />
+        </p>
+      </fieldset>
+      <fieldset>
+        <legend>Your Review</legend>
+        <p>
+          <span>How did you hear about this?</span>
+          <select name="" id="">
+            <option value="Google">Google</option>
+            <option value="LinkedIn">LinkedIn</option>
+            <option value="CraigsList">CraigsList</option>
+            <option value="AngelList">AngelList</option>
+            <option value="BCjobs">BCjobs</option>
+            <option value="WorkBC">WorkBC</option>
+          </select>
+        </p>
+        <p>
+          <p>Would you visit again?</p>
+          <input type="radio" id="yes" value="yes" name="visiting">
+          <label for="Yes">Yes</label>
+          <input type="radio" id="no" value="no" name="visiting">
+          <label for="No">No</label>
+          <input type="radio" id="maybe" value="maybe" name="visiting">
+          <label for="Maybe">Maybe</label>
+        </p>
+        <p>
+            <p>Comments:</p>
+            <textarea name="comments" id="comments" cols="150" rows="5"></textarea>
+        </p>
+        <input type="checkbox" id="updates" value="updates" name="updates" >
+        <label for="updates">Sing me up for email updates</label>
+        <p>
+        <input type="submit" value="Submit review">
+        </p>
+    </fieldset>
+    </form>
+  </body>
+</html>
