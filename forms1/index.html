@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      input:hover {
+        background-color: skyblue;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="http://www.google.ca">
+      <fieldset>
+        <legend>Check this</legend>
+        <br />First Name: <input type="text" /> <br />Last Name:
+        <input type="text" /> <br />Tell me about yourself: <br /><textarea
+          name=""
+          id=""
+          cols="150"
+          rows="5"
+          width="300px;"
+        ></textarea>
+        <p>
+        <select name="" id="">
+            <option value="Web">Web</option>
+            <option value="Mobile">Mobile</option>
+            <option value="DMS">DMS</option>
+            <option value="IBM">IBM</option>
+        </select>
+        </p>
+        <h1>Choose your courses</h1>
+        <br /><label for="web">Web</label
+        ><input type="radio" id="web" value="Web" name="courses" /> <br /><label
+          for="mobile"
+          >Mobile</label
+        ><input type="radio" id="mobile" value="Mobile" name="courses" />
+
+        <h1>Your programming tools</h1>
+        <br /><label for="eclipse">Eclipse</label
+        ><input type="checkbox" id="eclipse" value="Eclipse" name="tools" />
+        <br /><label for="code">Code</label
+        ><input type="checkbox" id="code" value="Code" name="tools" />
+        <p>
+          <input type="reset" value="Reset" /><input
+            type="submit"
+            value="Submit"
+          />
+        </p>
+      </fieldset>
+    </form>
+  </body>
+</html>
