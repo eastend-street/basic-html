@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Grid</title>
+    <style>
+      #outer {
+        display: grid;
+        /* grid-template-columns: 4fr 1fr; */
+        /* grid-template-rows: 4fr 2fr 1fr; */
+        /* grid-auto-flow: column; */
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        grid-auto-rows: 100px;
+        grid-gap: 10px 20px;
+      }
+      #outer div {
+        box-sizing: border-box;
+        border: 1px solid #fff;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      #outer div:nth-child(odd) {
+        background-color: #8aa29e;
+      }
+      #outer div:nth-child(even) {
+        background-color: #f9f2ec;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="outer">
+      <div id="inner1">1</div>
+      <div id="inner2">2</div>
+      <div id="inner3">3</div>
+      <div id="inner4">4</div>
+      <div id="inner5">5</div>
+      <div id="inner6">6</div>
+    </div>
+  </body>
+</html>
