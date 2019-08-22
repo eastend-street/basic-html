@@ -5,12 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Document</title>
+    <style>
+      #container {
+        display: table;
+        padding: 15px;
+        border: 2px solid black;
+      }
+      .row {
+        display: table-row;
+        padding: 10px;
+      }
+      .cell {
+        display: table-cell;
+        padding: 10px;
+      }
+    </style>
   </head>
   <body>
-      <form id="container" action="index.html">
-          <fieldset>
-              <legend>Personal Information</legend>
-          </fieldset>
-      </form>
+    <form id="container" action="index.html">
+      <fieldset>
+        <legend>Personal Information</legend>
+        <div class="row">
+          <label for="name" class="cell">Name</label>
+          <input type="text" id="name" class="cell" />
+        </div>
+        <div class="row">
+          <label for="email" class="cell">Email</label>
+          <input type="text" id="email" class="cell" />
+        </div>
+        <div class="row">
+          <label for="phone" class="cell">Phone</label>
+          <input type="text" id="phone" class="cell" />
+        </div>
+        <div class="row">
+          <label for="address" class="cell">Address</label>
+          <input type="text" id="address" class="cell" />
+        </div>
+      </fieldset>
+    </form>
   </body>
 </html>
