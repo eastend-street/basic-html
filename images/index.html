@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <style>
+      body {
+        margin: 0px;
+      }
+      .bw {
+        width: 800px;
+        height: 800px;
+        filter: grayscale(100%);
+        display: block;
+        margin: 0 auto;
+        background: url(images/bg.jpg) no-repeat;
+        background-size: cover;
+        border-radius: 50%;
+      }
+      .bw:hover {
+        filter: grayscale(0%);
+        box-shadow: 5px 5px 10px 5px grey;
+      }
+    </style>
+  </head>
+  <body>
+    <img class="bw"/>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nulla quod
+      aliquid odio error hic accusamus assumenda tempore, magnam distinctio
+      accusantium praesentium voluptatum eveniet similique earum explicabo vel
+      beatae itaque consectetur?
+    </p>
+  </body>
+</html>
