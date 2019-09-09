@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+}
+.container {
+  padding: 1rem;
+  background-color: #eee;
+}
+
+.result {
+  display: block;
+  height: 5rem;
+  width: 19rem;
+  border: none;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: right;
+  padding: 0.5rem;
+}
+.each-line {
+  width: 20rem;
+  display: flex;
+}
+
+.each-line .each-button {
+  -webkit-appearance: none;
+  width: 5rem;
+  padding: 1rem;
+  margin: 0.1rem;
+  font-size: 1rem;
+  border: none;
+}

@@ -10,29 +10,31 @@
   </head>
   <body>
       <div class="container">
-          <input type="text" id="result" class="result" disabled/>
-          <br>
-          <input type="button" value="7" onclick="enterValue(7)" />
-          <input type="button" value="8" onclick="enterValue(8)" />
-          <input type="button" value="9" onclick="enterValue(9)" />
-          <input type="button" value="+" onclick="enterValue('+')" />
-          <br/>
-          <input type="button" value="4" onclick="enterValue(4)" />
-          <input type="button" value="5" onclick="enterValue(5)" />
-          <input type="button" value="6" onclick="enterValue(6)" />
-          <input type="button" value="-" onclick="enterValue('-')" />
-          </br>
-          <input type="button" value="1" onclick="enterValue(1)" />
-          <input type="button" value="2" onclick="enterValue(2)" />
-          <input type="button" value="3" onclick="enterValue(3)" />
-          <input type="button" value="×" onclick="enterValue('*')" />
-          </br>
-          <input type="button" value="c" onclick="clearResult()" />
-          <input type="button" value="0" onclick="enterValue(0)" />
-          <input type="button" value="=" onclick="calculate()" />
-          <input type="button" value="÷" onclick="enterValue('/')" />
-          </br>
-      </div>
+        <input type="text" id="result" class="result" disabled/>
+        <div class="each-line">
+          <input type="button" class="each-button" value="7" onclick="enterValue(7)" />
+          <input type="button" class="each-button" value="8" onclick="enterValue(8)" />
+          <input type="button" class="each-button" value="9" onclick="enterValue(9)" />
+          <input type="button" class="each-button" value="+" onclick="enterValue('+')" />
+        </div>
+        <div class="each-line">
+          <input type="button" class="each-button" value="4" onclick="enterValue(4)" />
+          <input type="button" class="each-button" value="5" onclick="enterValue(5)" />
+          <input type="button" class="each-button" value="6" onclick="enterValue(6)" />
+          <input type="button" class="each-button" value="-" onclick="enterValue('-')" />
+        </div>
+        <div class="each-line">
+          <input type="button" class="each-button" value="1" onclick="enterValue(1)" />
+          <input type="button" class="each-button" value="2" onclick="enterValue(2)" />
+          <input type="button" class="each-button" value="3" onclick="enterValue(3)" />
+          <input type="button" class="each-button" value="×" onclick="enterValue('*')" />
+        </div>
+        <div class="each-line">
+          <input type="button" class="each-button" value="c" onclick="clearResult()" />
+          <input type="button" class="each-button" value="0" onclick="enterValue(0)" />
+          <input type="button" class="each-button" value="=" onclick="calculate()" />
+          <input type="button" class="each-button" value="÷" onclick="enterValue('/')" />
+        </div>
     ​<script type="text/javascript" src="./index.js"></script>
   </body>
 </html>

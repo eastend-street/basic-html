@@ -11,5 +11,5 @@ function calculate() {
 }
 
 function clearResult() {
-  result.value = 0;
+  result.value = "";
 }
