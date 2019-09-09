@@ -1,7 +1,7 @@
 let result = document.getElementById("result");
 
 function enterValue(element) {
-  result.value += element.value;
+  result.value += element;
 }
 
 function calculate() {
