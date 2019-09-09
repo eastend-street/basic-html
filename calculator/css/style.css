@@ -4,6 +4,7 @@ body {
   /* align-items: center; */
 }
 .container {
+  margin-top: 5rem;
   padding: 1rem;
   background-color: #eee;
 }

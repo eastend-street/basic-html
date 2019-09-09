@@ -6,8 +6,6 @@ function enterValue(element) {
 
 function calculate() {
   result.value = eval(result.value);
-  console.log(result.value);
-  // result.value = new Function("return " + result.value)();
 }
 
 function clearResult() {
