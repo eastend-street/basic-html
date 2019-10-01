@@ -1,0 +1,1 @@
+# basic HTML practice as a school project
